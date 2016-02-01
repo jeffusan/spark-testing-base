@@ -4,7 +4,7 @@ name := "spark-testing-base"
 
 publishMavenStyle := true
 
-version := "0.3.1"
+version := "1.5.0_0.3.1"
 
 scalaVersion := "2.10.4"
 
@@ -14,7 +14,7 @@ javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 
 spName := "holdenk/spark-testing-base"
 
-sparkVersion := "1.6.0"
+sparkVersion := "1.5.0"
 
 sparkComponents ++= Seq("core", "streaming", "sql", "catalyst", "hive", "streaming-kafka", "yarn", "mllib")
 
